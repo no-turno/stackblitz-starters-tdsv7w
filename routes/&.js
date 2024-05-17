@@ -1,1 +1,1 @@
-export const dir = import.meta.dirname
+export default Object.assign({}, {dir: import.meta.dir})

@@ -7,14 +7,23 @@
     "@koa/router": "^10.0.0",
     "@types/koa": "^2.15.0",
     "@types/node": "^20.12.12",
+    "@types/systemjs": "^6.13.5",
+    "acorn": "^8.11.3",
+    "consola": "^3.2.3",
     "elysia": "^1.0.20",
     "esbuild": "^0.21.3",
     "koa": "^2.13.1",
     "koa-logger": "^3.2.1",
     "koa-pino-logger": "^3.0.0",
-    "rolldown": "^0.10.2"
+    "purescript": "^0.15.15",
+    "radix3": "^1.1.2",
+    "rolldown": "^0.10.2",
+    "systemjs": "^6.15.1",
+    "tsx": "^4.10.4",
+    "typescript": "^5.4.5",
+    "unenv": "^1.9.0"
   },
   "scripts": {
-    "start": "NODE_ENV=development node --allow-es-modules --watch index.js"
+    "start": "NODE_ENV=development node --allow-es-modules --watch ./app/index.js"
   }
 }

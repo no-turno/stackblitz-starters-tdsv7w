@@ -1,0 +1,20 @@
+{
+  "name": "koa-starter",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@elysiajs/swagger": "^1.0.5",
+    "@koa/router": "^10.0.0",
+    "@types/koa": "^2.15.0",
+    "@types/node": "^20.12.12",
+    "elysia": "^1.0.20",
+    "esbuild": "^0.21.3",
+    "koa": "^2.13.1",
+    "koa-logger": "^3.2.1",
+    "koa-pino-logger": "^3.0.0",
+    "rolldown": "^0.10.2"
+  },
+  "scripts": {
+    "start": "NODE_ENV=development node --allow-es-modules --watch index.js"
+  }
+}

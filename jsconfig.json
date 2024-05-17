@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "moduleResolution": "bundler",
+    "module": "ESNext",
+    "noEmit": true,
+    "esModuleInterop": true,
+    "types": ["node"],
+    "lib": ["ESNext", "WebWorker"]
+  },
+  "include": ["**/*.js"],
+  "exclude": ["./node_modules", ".noc"]
+}
